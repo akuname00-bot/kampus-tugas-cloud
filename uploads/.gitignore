@@ -1,0 +1,6 @@
+# Abaikan file konfigurasi database asli
+config.php
+
+# Abaikan isi file upload lokal, tapi tetap kirim foldernya
+uploads/*
+!uploads/.gitkeep
